@@ -49,8 +49,7 @@ api_key = "131b3c4ead684b21e2cc790685488e46"
 # GUI Setup
 root = tk.Tk()
 root.title("Weather App")
-
-icon = ImageTk.PhotoImage(file="logo")
+icon = ImageTk.PhotoImage(file="logo.png")
 root.iconphoto(True, icon)
 
 frame = tk.Frame(root)
